@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+
+pix --version | grep -Eq '^pix [0-9]'
+test -f /usr/share/applications/pix.desktop
+test -f /usr/share/man/man1/pix.1.gz
+test -f /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/pkgconfig/pix.pc
+test -d /usr/share/pix
+test -n "$(find /usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/pix/extensions -name '*.so' -print -quit)"
+

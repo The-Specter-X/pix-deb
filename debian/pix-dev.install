@@ -1,0 +1,4 @@
+usr/include/pix/*
+usr/lib/*/pkgconfig/pix.pc
+usr/share/aclocal/pix.m4
+

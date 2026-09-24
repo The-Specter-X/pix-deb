@@ -1,0 +1,6 @@
+usr/bin/pix
+usr/lib/*/pix/extensions/*.extension
+usr/lib/*/pix/extensions/*.so
+usr/share/applications/*.desktop
+usr/share/man/man1/pix.1
+

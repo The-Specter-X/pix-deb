@@ -1,0 +1,11 @@
+/.pc/
+/debian/.debhelper/
+/debian/debhelper-build-stamp
+/debian/files
+/debian/*.debhelper.log
+/debian/*.substvars
+/debian/pix/
+/debian/pix-data/
+/debian/pix-dev/
+/obj-*/
+
